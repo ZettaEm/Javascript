@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Javascript</title>
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap 5 -->
+    
+</head>
+<style>
+    .header {
+        text-align: center;
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+    }
+    .ShowResult{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .output{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 2rem;
+        color: #fff;
+    }
+</style>
+
+<body>
+    <div class="uk-padding  ">
+        <div class="d-flex justify-content-center">
+
+        </div>
+        <h4 class="uk-text-lead header">สูตรคูณ</h4>
+        <p>
+            <input id="number-input" type="number" class="form-control mt-3  w-50"
+                placeholder="พิมพ์แม่สูตรคูณที่ต้องการ">
+        </p>
+        <p>
+            <button id="run-button" class="btn btn-primary shadow-none w-50">ได้แก่</button>
+        </p>
+        <div id="output" class="card w-50 ShowResult" style="background: #808080;">
+            <p></p>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
